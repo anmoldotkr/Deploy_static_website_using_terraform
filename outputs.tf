@@ -1,0 +1,1 @@
+# This file is export the name of the resources

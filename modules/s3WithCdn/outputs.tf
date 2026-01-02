@@ -10,3 +10,9 @@ output "s3_bucket_website_endpoint" {
 output "s3_bucket_regional_domain_name" {
   value = aws_s3_bucket.this.bucket_regional_domain_name
 }
+output "aws_cloudfront_distribution_id" {
+  value = aws_cloudfront_distribution.this.id
+}
+output "aws_cloudfront_distribution_arn" {
+  value = aws_cloudfront_distribution.this.arn
+}
